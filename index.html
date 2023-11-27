@@ -90,7 +90,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Foto</th>\
-                        <td>' + (feature.properties['Foto'] !== null ? '<img src="images/' + String(feature.properties['Foto']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
+                        <td>' + (feature.properties['Foto'] !== null ? '<img src="images/' + String(feature.properties['Foto']).replace(/[\\\/:]/g, '_').trim() + '"+ 'class=popupimage' +'>' : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">WUR</th>\
